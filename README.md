@@ -3,6 +3,11 @@ Online Learning Platform
 
 Docker commands:
 
-To build image: docker build -t sheba .
-To run with a shell: docker run --name sheba -p 3000:3000 sheba
+For development environment:
+To build image: docker build --target development -t sheba .
+To run docker with an attached shell: docker run --name sheba -p 8000:8000 -v ${pwd}/build:/app sheba (for command prompt, use $(pwd))
+
+For production environment:
+To build image: docker build --target production -t sheba .
+To run docker with an attached shell: docker run --name sheba -p 8000:8000 sheba
 
