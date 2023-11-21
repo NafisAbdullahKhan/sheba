@@ -1,0 +1,24 @@
+{
+  "name": "sheba",
+  "version": "1.0.0",
+  "description": "Online Learning Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NafisAbdullahKhan/sheba.git"
+  },
+  "keywords": [
+    "sheba",
+    "e-learning",
+    "online"
+  ],
+  "author": "Sheba Innovations LTD.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NafisAbdullahKhan/sheba/issues"
+  },
+  "homepage": "https://github.com/NafisAbdullahKhan/sheba#readme"
+}
