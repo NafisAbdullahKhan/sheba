@@ -11,9 +11,12 @@ module.exports = {
   target: "node",
   output: {
     path: __dirname + "/build",
-    filename: "index.js"
+    filename: "[name].js"
   },
-  entry: "./src/index.js",
+  entry: {
+    index: "./src/index.js",
+    test: "./test/test.js"
+  },
   devtool: false,
   module: {
     rules: [
